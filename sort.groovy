@@ -5,7 +5,7 @@ job('job dsl')
     {
         git("https://github.com/chiragawasthi17/bubble-sort-visualizer.git", 'main')
     }
-    trigger
+    triggers
     {
         scm('* * * * *')
     }
