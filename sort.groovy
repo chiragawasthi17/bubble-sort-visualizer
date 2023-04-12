@@ -3,7 +3,7 @@ job('job dsl')
     description('this is our second job dsl using apache groovy')
     scm
     {
-        git("https://github.com/chiragawasthi17/bubble-sort-visualizer.git", 'master')
+        git("https://github.com/chiragawasthi17/bubble-sort-visualizer.git", 'main')
     }
     trigger
     {
