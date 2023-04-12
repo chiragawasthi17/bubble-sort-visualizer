@@ -1,4 +1,4 @@
-job('job dsl')
+job('job dsl new')
 {
     description('this is our second job dsl using apache groovy')
     scm
